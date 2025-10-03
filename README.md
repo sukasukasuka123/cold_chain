@@ -1,6 +1,6 @@
 # cold_chain struct
 
---- **factory need struct**
+- **factory need struct**
 ``` go
 
 // 生产信息
@@ -54,7 +54,7 @@ type AllProductInfoInFactory struct {
 	QualityReport   QualityReport   `json:"quality_report"`
 }
 ```
---- **intermediary need struct**
+- **intermediary need struct**
 
 ```go
 // 入库信息（包括物流单号、冷库位置、温度、湿度、图片信息）
@@ -68,7 +68,7 @@ type InboundInfo struct {
 }
 ```
 
---- **block chain need struct**
+- **block chain need struct**
 
 ```go
 // 交易
