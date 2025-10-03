@@ -4,7 +4,13 @@
 
  - **how can i get?**
 ``` go
-go get 
+go get github.com/sukasukasuka123/cold_chain/factoryInfoModel
+```
+- **how can i import?**
+``` go
+import(
+	"github.com/sukasukasuka123/cold_chain/factoryInfoModel"
+)
 ```
 - **factory need struct**
 ``` go
@@ -60,6 +66,18 @@ type AllProductInfoInFactory struct {
 	QualityReport   QualityReport   `json:"quality_report"`
 }
 ```
+## intermediary info
+
+ - **how can i get?**
+``` go
+go get github.com/sukasukasuka123/cold_chain/intermediaryInfoModel
+```
+- **how can i import?**
+``` go
+import(
+	"github.com/sukasukasuka123/cold_chain/intermediaryInfoModel"
+)
+```
 - **intermediary need struct**
 
 ```go
@@ -73,7 +91,18 @@ type InboundInfo struct {
 	InboundDate  time.Time `json:"inbound_date"`
 }
 ```
+## block chain info
 
+ - **how can i get?**
+``` go
+go get github.com/sukasukasuka123/cold_chain/blockChainModel
+```
+- **how can i import?**
+``` go
+import(
+	"github.com/sukasukasuka123/cold_chain/blockChainModel"
+)
+```
 - **block chain need struct**
 
 ```go
