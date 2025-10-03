@@ -1,5 +1,11 @@
 # cold_chain struct
 
+## factory info
+
+ - **how can i get?**
+``` go
+go get 
+```
 - **factory need struct**
 ``` go
 
