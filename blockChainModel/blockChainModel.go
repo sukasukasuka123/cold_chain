@@ -6,6 +6,8 @@ import "time"
 type Transaction struct {
 	TxID string      `json:"tx_id"`
 	Data interface{} `json:"data"`
+	SenderPubKey string      `json:"sender_pub_key"` 
+	Signature    string      `json:"signature"`  
 }
 
 // 区块头
